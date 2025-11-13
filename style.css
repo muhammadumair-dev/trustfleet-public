@@ -1800,14 +1800,14 @@ nav {
 }
 .flex-ul ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 .specail li{
     width: 80%;
     display: flex;
     align-items: center;
-     background-color: red;
+
     gap: 20px;
 }
 #flex-ul ul{
