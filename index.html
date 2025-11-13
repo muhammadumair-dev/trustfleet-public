@@ -4,28 +4,1112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>TrustFleet - home</title>
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google font  Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Google font  Robboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Google font Oxanium -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- 1. Include Flatpickr CSS and JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">security</div>
-        <div class="menu">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">contact</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">login</a></li>
-                <li><a href="">Sign Up</a></li>
-            </ul>
+    <nav>
+        <div class="main-container">
+            <div class="logo">
+                <img src="./Logo-@2x-e1694590771321.png" alt="logo">
+            </div>
+            <div class="nav-item">
+                <div class="nav-content">
+                    <li><a href="#"><span>HOME</span></a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#"> CARLISTING</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </div>
+            </div>
+            <div class="cont">
+                <button>CONTACT US</button>
+            </div>
         </div>
-    </nav>
-   
 
+
+    </nav>
+    <div class="flex">
+        <div class="drive">
+            <div class="fr">
+                <div class="h1">
+                    <h1>
+                        DriVE YOUR <br> DREAM
+                    </h1>
+
+                </div>
+                <div class="p">
+                    <p>Unlock Your Journey <br>with Our Rental Cars</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="long-hr">
+                <hr>
+            </div>
+            <div class="bta">
+                <button>FIND A CAR</button>
+                <a href="#">LEARN MORE</a>
+
+
+            </div>
+            <div class="sec">
+                <div>
+                    <h2>$13.00</h2>
+                </div>
+                <div><span>PerHours</span></div>
+            </div>
+
+
+        </div>
+        <div class="hero-section">
+            <div class="background-gradient"></div>
+            <div class="car-image"><img src="car.png" /></div>
+            <div class="container">
+                <h2>Travel Booking Form</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="number">Phone Number:</label>
+                        <input type="tel" id="number" name="number" placeholder="e.g., +1234567890"
+                            pattern="[0-9]{10,15}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="destination">Destination:</label>
+                        <select id="destination" name="destination" required>
+                            <option value="">Select a Destination</option>
+                            <option value="paris">Paris</option>
+                            <option value="tokyo">Tokyo</option>
+                            <option value="newyork">New York</option>
+                            <option value="sydney">Sydney</option>
+                            <option value="london">London</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pick-date">Pick-up Date:</label>
+                        <input type="date" id="pick-date" name="pick-date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="return-date">Return Date:</label>
+                        <input type="date" id="return-date" name="return-date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Submit Booking">
+                    </div>
+                </form>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <section class="sec-2">
+        <div class="h2">
+            <h2>How It Works</h2>
+        </div>
+        <div class="lorem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                pulvinar dapibus leo.</p </div>
+
+
+    </section>
+    <section>
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top change"><i class="fa-solid fa-car"></i></div>
+
+                </div>
+                <div class="inner-content">
+                    <div class="h3">
+                        <h3>Book Online</h3>
+                    </div>
+                    <div class="h3">
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>01</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top "><i class="fa-solid fa-book"></i></div>
+                </div>
+                <div class="inner-content">
+
+                    <div class="h3">
+                        <h3>Book Online</h3>
+                    </div>
+                    <div class="h3">
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>02</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top change"><i class="fa-solid fa-money-bill-1"></i></div>
+                </div>
+                <div class="inner-content">
+                    <div class="h3">
+                        <h3>Book Online</h3>
+                    </div>
+                    <div class="h3">
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>03</h2>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top"><i class="fa-solid fa-face-smile"></i></div>
+                </div>
+                <div class="inner-content">
+                    <div class="h3">
+                        <h3>Enjoy Your Ride</h3>
+                    </div>
+                    <div class="h3">
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>04</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="sec-3">
+        <div class="container-sec3">
+            <div class="imges-con">
+                <div class="flex-first">
+                    <div class="girl-image"><img src="./girl-image.jpg" alt="girl-image"></div>
+                    <div class="girl-info">
+                        <h2>14</h2>
+                        <p>Years Of Experience</p>
+                    </div>
+                </div>
+                <div class="flex-second">
+                    <div class="girl-image2"><img src="./women.jpg" alt="girl-image"></div>
+                </div>
+            </div>
+            <div class="flex-third">
+                <div class="firts-heading">
+                    <h2>THE BEST CAR RENTAL SERVICE IN THE WORLD</h2>
+                </div>
+                <div class="firts-p">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi </p>
+                </div>
+                <div class="firtsul">
+
+                    <div>
+                        <ul class="ul-inner">
+                            <li><i aria-hidden="true" class="fas fa-check-circle"></i>24/7 Customer Support</li>
+                            <li><i aria-hidden="true" class="fas fa-check-circle"></i>Wide Range of Vehicles</li>
+                            <li><i aria-hidden="true" class="fas fa-check-circle"></i>Affordable Prices</li>
+                            <li><i aria-hidden="true" class="fas fa-check-circle"></i>Affordable Prices</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="ul-inner">
+                            <li><i aria-hidden="true" class="fas fa-check-circle"></i>Affordable Prices</li>
+                            <li><i aria-hidden="true" class="fas fa-check-circle"></i>Flexible Rental Options</li>
+                            <li><i aria-hidden="true" class="fas fa-check-circle"></i>Easy Online Booking</li>
+                            <li><i aria-hidden="true" class="fas fa-check-circle"></i>Insurance Coverage</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="flex-thirdend">
+                    <div class="flex-btn"><button>More About Us</button></div>
+
+                    <div class="thi-bt">
+                        <div class="thi-im"><img src="./man.jpg" alt="man"></div>
+                        <div class="thi-end">
+                            <h2>William Burgess</h2>
+                            <p>Carveo Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <section class="sec-2" id="sec-2modi">
+        <div class="h2">
+            <h2>MOST POPULAR TYPES OF CARS</h2>
+        </div>
+        <div class="lorem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                pulvinar dapibus leo.</p </div>
+
+
+    </section>
+    <section>
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top change" id="change"><img src="./images/Icon-5_2@2x (1).png" alt="img"></div>
+
+                </div>
+                <div class="inner-content">
+                    <div class="h3">
+                        <h2>Sports</h2>
+                    </div>
+                    <div class="h3">
+                        <h2>5 Cars</h2>
+                    </div>
+
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>01</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top " id="change"><img src="./images/Icon-6_1@2x.png" alt="img"></div>
+                </div>
+                <div class="inner-content">
+
+                    <div class="h3">
+                        <h3>Book Online</h3>
+                    </div>
+                    <div class="h3">
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>02</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top change" id="change"><img src="./images/Icon-5_2@2x (1).png" alt="img"></div>
+
+                </div>
+                <div class="inner-content">
+                    <div class="h3">
+                        <h3>Book Online</h3>
+                    </div>
+                    <div class="h3">
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>01</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top" id="change"><img src="./images/Icon-6_1@2x.png" alt="img"></div>
+                </div>
+                <div class="inner-content">
+                    <div class="h3">
+                        <h3>Enjoy Your Ride</h3>
+                    </div>
+                    <div class="h3">
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>04</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top change" id="change"><img src="./images/Icon-5_2@2x (1).png" alt="img"></div>
+
+                </div>
+                <div class="inner-content">
+                    <div class="h3">
+                        <h3>Book Online</h3>
+                    </div>
+                    <div class="h3">
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>01</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex-item">
+                <div class="inner-top">
+
+                    <div class="circule-top" id="change"><img src="./images/Icon-6_1@2x.png" alt="img"></div>
+                </div>
+                <div class="inner-content">
+                    <div class="h3">
+                        <h3>Enjoy Your Ride</h3>
+                    </div>
+                    <div class="h3">
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+
+                </div>
+                <div class="inner-bottom">
+                    <div class="circule-bottom">
+                        <h2>04</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <div class="backcar">
+        <div class="backcar-fir">
+            <div class="backcar-heading">
+                <h2>Why Choose Carveo ?</h2>
+            </div>
+            <div class="backcar-lor"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim
+            </div>
+            <div class="backcar-flex">
+                <div class="bflex-main">
+                    <div class="bflex-cir"><i class="fa-solid fa-face-smile"></i></div>
+                    <div class="bcontent">
+                        <h2 class="title">24/7 Support</h2>
+                        <p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                    </div>
+                    <div class="bflex-main2">
+                        <div class="bflex-cir"><i class="fa-solid fa-face-smile"></i></div>
+                        <div class="bcontent">
+                            <h2 class="title">24/7 Support</h2>
+                            <p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bflex-main">
+                    <div class="bflex-cir"><i class="fa-solid fa-face-smile"></i></div>
+                    <div class="bcontent">
+                        <h2 class="title">24/7 Support</h2>
+                        <p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                    </div>
+                    <div class="bflex-main2">
+                        <div class="bflex-cir"><i class="fa-solid fa-face-smile"></i></div>
+                        <div class="bcontent">
+                            <h2 class="title">24/7 Support</h2>
+                            <p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="guid-main">
+            <div class="background-gradient2">
+                <div class="car-image2"><img src="./images/Black-Sedan.I01.2k.png" /></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="featires">
+
+        <div class="fea-he">
+            <h2>Our Featured Cars</h2>
+        </div>
+
+        <div class="fea-lor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et
+        </div>
+
+        <div class="fea-a">
+            <div class="fea-ah"><a href="#">VIEW ALL CAR</a></div>
+        </div>
+
+    </div>
+    <section class="main-cart">
+        <div class="cart-head">
+            <div class="cart">
+                <div class="car-ima"><img src="./images/Car1-1.png" alt=""></div>
+                <div class="cart-content">
+                    <div class="cart-heading">
+                        <h2>Tesla Model S Plaid
+                        </h2>
+                    </div>
+                    <div class="reta">
+                        <div>3.8 Review</div>
+                        <div class="stardi">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"> </i>
+                                <i class="fa-solid fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hour" style="display: flex;">
+                        <div>
+                            <h2 class="ho-h">$20.00</h2>
+                        </div>
+                        <div>
+                            /Hours
+                        </div>
+                    </div>
+                    <div class="cart-hr">
+                        <div class="hr"></div>
+                    </div>
+                    <div class="cart-seat">
+                        <ul style="display: flex;">
+                            <li><i aria-hidden="true" class="fas fa-users"></i><span>4 Seat</span></li>
+                            <li><i aria-hidden="true" class="fas fa-users"></i><span>4 Seat</span></li>
+                            <li><i aria-hidden="true" class="fas fa-users"></i><span>4 Seat</span></li>
+                        </ul>
+                    </div>
+                    <div class="fea-a " id="fea-a">
+                        <div class="fea-ah" id="fea-ah"><a href="#">VIEW ALL CAR</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart">
+                <div class="car-ima"><img src="./images/Car1-1.png" alt=""></div>
+                <div class="cart-content">
+                    <div class="cart-heading">
+                        <h2>Tesla Model S Plaid
+                        </h2>
+                    </div>
+                    <div class="reta">
+                        <div>3.8 Review</div>
+                        <div class="stardi">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"> </i>
+                                <i class="fa-solid fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hour" style="display: flex;">
+                        <div>
+                            <h2 class="ho-h">$20.00</h2>
+                        </div>
+                        <div>
+                            /Hours
+                        </div>
+                    </div>
+                    <div class="cart-hr">
+                        <div class="hr"></div>
+                    </div>
+                    <div class="cart-seat">
+                        <ul style="display: flex;">
+                            <li><i aria-hidden="true" class="fas fa-users"></i><span>4 Seat</span></li>
+                            <li><i aria-hidden="true" class="fas fa-users"></i><span>4 Seat</span></li>
+                            <li><i aria-hidden="true" class="fas fa-users"></i><span>4 Seat</span></li>
+                        </ul>
+                    </div>
+                    <div class="fea-a " id="fea-a">
+                        <div class="fea-ah" id="fea-ah"><a href="#">VIEW ALL CAR</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart">
+                <div class="car-ima"><img src="./images/Car1-1.png" alt=""></div>
+                <div class="cart-content">
+                    <div class="cart-heading">
+                        <h2>Tesla Model S Plaid
+                        </h2>
+                    </div>
+                    <div class="reta">
+                        <div>3.8 Review</div>
+                        <div class="stardi">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"> </i>
+                                <i class="fa-solid fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hour" style="display: flex;">
+                        <div>
+                            <h2 class="ho-h">$20.00</h2>
+                        </div>
+                        <div>
+                            /Hours
+                        </div>
+                    </div>
+                    <div class="cart-hr">
+                        <div class="hr"></div>
+                    </div>
+                    <div class="cart-seat">
+                        <ul style="display: flex;">
+                            <li><i aria-hidden="true" class="fas fa-users"></i><span>4 Seat</span></li>
+                            <li><i aria-hidden="true" class="fas fa-users"></i><span>4 Seat</span></li>
+                            <li><i aria-hidden="true" class="fas fa-users"></i><span>4 Seat</span></li>
+                        </ul>
+                    </div>
+                    <div class="fea-a " id="fea-a">
+                        <div class="fea-ah" id="fea-ah"><a href="#">VIEW ALL CAR</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="fact-main">
+        <div class="fact-text">
+            <div class="fact-heading">
+                <h2>Facts Based on Numbers</h2>
+            </div>
+            <div class="fact-lor">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            </div>
+
+        </div>
+
+        <div class="progress">
+            <div class="pro-cart">
+                <div class="pro-font">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="pro-rate">
+                    <div class="rates">
+                        <span>789 </span>
+                        <span>+</span>
+                    </div>
+                    <div class="rates-h">
+                        <h2>Happy Customers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="pro-cart">
+                <div class="pro-font">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="pro-rate">
+                    <div class="rates">
+                        <span>789 </span>
+                        <span>+</span>
+                    </div>
+                    <div class="rates-h">
+                        <h2>Happy Customers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="pro-cart">
+                <div class="pro-font">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="pro-rate">
+                    <div class="rates">
+                        <span>789 </span>
+                        <span>+</span>
+                    </div>
+                    <div class="rates-h">
+                        <h2>Happy Customers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="pro-cart">
+                <div class="pro-font">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="pro-rate">
+                    <div class="rates">
+                        <span>789 </span>
+                        <span>+</span>
+                    </div>
+                    <div class="rates-h">
+                        <h2>Happy Customers</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carveo-main">
+            <div class="carveo-h">
+                <h2>Carveo Services</h2>
+            </div>
+            <div class="carveo-lor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                ullamcorper mattis,
+                pulvinar dapibus leo.</div>
+        </div>
+
+    </div>
+    <div class="buss-image">
+        <div class="buss-cart">
+            <div class="b-cart">
+                <div class="b-image">
+                    <img src="./images/man-image.jpg" alt="img">
+                </div>
+                <div class="bcart-content">
+                    <div class="cart-inner">
+                        <h2>Luxury Rentals
+                        </h2>
+                        <div class="aenre">
+                            aenean et tortor at risus. Nec nam aliquam sem
+                        </div>
+                        <div class="b-button">
+                            <div class="button-text">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-cart">
+                <div class="b-image">
+                    <img src="./images/man-image.jpg" alt="img">
+                </div>
+                <div class="bcart-content">
+                    <div class="cart-inner">
+                        <h2>Luxury Rentals
+                        </h2>
+                        <div class="aenre">
+                            aenean et tortor at risus. Nec nam aliquam sem
+                        </div>
+                        <div class="b-button">
+                            <div class="button-text">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-cart">
+                <div class="b-image">
+                    <img src="./images/man-image.jpg" alt="img">
+                </div>
+                <div class="bcart-content">
+                    <div class="cart-inner">
+                        <h2>Luxury Rentals
+                        </h2>
+                        <div class="aenre">
+                            aenean et tortor at risus. Nec nam aliquam sem
+                        </div>
+                        <div class="b-button">
+                            <div class="button-text">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-cart">
+                <div class="b-image">
+                    <img src="./images/man-image.jpg" alt="img">
+                </div>
+                <div class="bcart-content">
+                    <div class="cart-inner">
+                        <h2>Luxury Rentals
+                        </h2>
+                        <div class="aenre">
+                            aenean et tortor at risus. Nec nam aliquam sem
+                        </div>
+                        <div class="b-button">
+                            <div class="button-text">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="istam-main">
+        <div class="istam-inner">
+            <div class="istam"><img src="./istamp.png" alt="img"></div>
+            <div class="istam"><img src="./istamp.png" alt="img"></div>
+            <div class="istam"><img src="./istamp.png" alt="img"></div>
+            <div class="istam"><img src="./istamp.png" alt="img"></div>
+        </div>
+    </div>
+    <div class="offer-main">
+        <div class="inner-let">
+            <div class="let-h">
+
+                Lets Rent Our Car
+            </div>
+            <div class="let-lor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+            </div>
+            <div class="let-but">
+                <div class="let-b-a"><a href="#">Our Car</a></div>
+            </div>
+        </div>
+        <div class="inner-right">
+            <div class="inner-let" id="lolet">
+                <div class="let-h" id="let-h">
+
+                    Sale 30% Off
+                </div>
+                <div class="let-lor" id="let-lor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                </div>
+                <div class="let-but" id="let-but">
+                    <div class="let-b-a" id="let-b-a"><a href="#">BOOK A CAR</a></div>
+                </div>
+            </div>
+            <div class="cut-car">
+                <img src="./images/shotCar.png" alt="im">
+            </div>
+        </div>
+    </div>
+    <div class="featires" id="featires">
+
+        <div class="fea-he">
+            <h2>What Customer Say About Carveo</h2>
+        </div>
+
+        <div class="fea-lor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et
+        </div>
+
+        <div class="fea-a">
+            <div class="fea-ah"><a href="#">VIEW ALL CAR</a></div>
+        </div>
+
+    </div>
+    <div class="customer">
+        <div class="cus-inner">
+            <div class="cus-box">
+                <div class="box-boder">
+                    <p>" volutpat diam ut venenatis. Convallis aenean et tortor at risus. Nec nam aliquam sem et tortor.
+                        Donec massa sapien faucibus et molestie ac feugiat. Lacinia quis "</p>
+
+                </div>
+                <div class="box-inner">
+                    <div class="image-box">
+                        <img src="./man.jpg" alt="images">
+                    </div>
+                    <div class="M-st">
+                        <strong>Mallory Rodriquez</strong>
+                    </div>
+                    <div class="O-p">
+                        <p>Our Customer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cus-box" id="cus-boc">
+                <div class="box-boder" id="box-boder">
+                    <p>" volutpat diam ut venenatis. Convallis aenean et tortor at risus. Nec nam aliquam sem et tortor.
+                        Donec massa sapien faucibus et molestie ac feugiat. Lacinia quis "</p>
+
+                </div>
+                <div class="box-inner" id="box-inner">
+                    <div class="image-box">
+                        <img src="./man.jpg" alt="images">
+                    </div>
+                    <div class="M-st">
+                        <strong>Mallory Rodriquez</strong>
+                    </div>
+                    <div class="O-p">
+                        <p>Our Customer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cus-box">
+                <div class="box-boder">
+                    <p>" volutpat diam ut venenatis. Convallis aenean et tortor at risus. Nec nam aliquam sem et tortor.
+                        Donec massa sapien faucibus et molestie ac feugiat. Lacinia quis "</p>
+
+                </div>
+                <div class="box-inner">
+                    <div class="image-box">
+                        <img src="./man.jpg" alt="images">
+                    </div>
+                    <div class="M-st">
+                        <strong>Mallory Rodriquez</strong>
+                    </div>
+                    <div class="O-p">
+                        <p>Our Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="featires" id="featires2">
+
+        <div class="fea-he">
+            <h2>OUR BLOG & NEWS​</h2>
+        </div>
+
+        <div class="fea-lor" id="fea-lor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt
+            ut labore et
+        </div>
+
+    </div>
+    <div class="blog">
+        <div class="blog-inner">
+            <div class="blo-big">
+                <div class="big-im"><img src="./images/bigimg.jpg" alt="img"></div>
+                <div class="big-inner">
+                    <div class="bi-m">
+                        <div class="big-t"><i aria-hidden="true" class="fas fa-clock"></i>September 6, 2023</div>
+                        <h3 class="big-h3">3 Easy Steps To Rent A Car With A Debit Card</h3>
+                        <div class="big-lor">
+                            <p>Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi...
+
+                            </p>
+                        </div>
+                        <div class="b-button" id="b-button">
+                            <div class="button-text" id="button-text">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blo-flex">
+                <div class="st-flex">
+
+                    <div class="blo-big" id="blo-big">
+                        <div class="big-im"><img src="./images/bigimg.jpg" alt="img"></div>
+                        <div class="big-inner">
+                            <div class="bi-m">
+                                <div class="big-t"><i aria-hidden="true" class="fas fa-clock"></i>September 6, 2023
+                                </div>
+                                <h3 class="big-h3">3 Easy Steps To Rent A Car With A Debit Card</h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blo-big" id="blo-big">
+                        <div class="big-im"><img src="./images/bigimg.jpg" alt="img"></div>
+                        <div class="big-inner">
+                            <div class="bi-m">
+                                <div class="big-t"><i aria-hidden="true" class="fas fa-clock"></i>September 6, 2023
+                                </div>
+                                <h3 class="big-h3">3 Easy Steps To Rent A Car With A Debit Card</h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="st-flex">
+
+                    <div class="blo-big" id="blo-big">
+                        <div class="big-im"><img src="./images/bigimg.jpg" alt="img"></div>
+                        <div class="big-inner">
+                            <div class="bi-m">
+                                <div class="big-t"><i aria-hidden="true" class="fas fa-clock"></i>September 6, 2023
+                                </div>
+                                <h3 class="big-h3">3 Easy Steps To Rent A Car With A Debit Card</h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blo-big" id="blo-big">
+                        <div class="big-im"><img src="./images/bigimg.jpg" alt="img"></div>
+                        <div class="big-inner">
+                            <div class="bi-m">
+                                <div class="big-t"><i aria-hidden="true" class="fas fa-clock"></i>September 6, 2023
+                                </div>
+                                <h3 class="big-h3">3 Easy Steps To Rent A Car With A Debit Card</h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-main">
+            <div class="footer-all">
+                <div class="footer-img"> <img src="./images/Logo-Light@2x-e1694590782371.png" alt="img"></div>
+                <div class="footer-lor">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                <div class="footer-hr">
+                    <hr>
+                </div>
+                <div class="footer-flex">
+
+                    <div class="flex-footer">
+                        <div class="flex-h2f">
+                            <h2>Quick Contact</h2>
+                        </div>
+                        <div class="flex-ul">
+                            <ul>
+                                <li>Privacy Policy</li>
+                                <li>Privacy Policy</li>
+                                <li>Privacy Policy</li>
+                                <li>Privacy Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-footer">
+                        <div class="flex-h2f">
+                            <h2>Quick Contact</h2>
+                        </div>
+                        <div class="flex-ul">
+                            <ul>
+                                <li>Privacy Policy</li>
+                                <li>Privacy Policy</li>
+                                <li>Privacy Policy</li>
+                                <li>Privacy Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-footer">
+                        <div class="flex-h2f">
+                            <h2>Quick Contact</h2>
+                        </div>
+                        <div class="flex-ul">
+                            <ul class="specail">
+                                <li><span><i aria-hidden="true" class="fas fa-map-pin"></i></span> Callison Laney Buoy
+                                    Building W 13th Parks Suite 559, Denver</li>
+
+                                <li><span><i aria-hidden="true" class="fas fa-map-pin"></i></span>
+                                    Office 478 Vienna, AU 92101</li>
+
+                                <li><span><i aria-hidden="true" class="fas fa-map-pin"></i></span> +0 (555) 123 45 67
+                                <li><span><i aria-hidden="true" class="fas fa-map-pin"></i></span> carveo@support.com
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-footer" id="flex-footer">
+                        <div class="flex-h2f">
+                            <h2>Quick Contact</h2>
+                        </div>
+                        <div class="flex-ul" id="flex-ul">
+                            <ul class="latest">
+
+                                <li>
+                                    <div class="place"><a href="#"><i class="fab fa-twitter"></i></div></i>
+                                <li>
+                                    <div class="place"><a href="#"><i class="fab fa-twitter"></i></div></i>
+                                <li>
+                                    <div class="place"><a href="#"><i class="fab fa-twitter"></i></div></i>
+                                <li>
+                                    <div class="place"><a href="#"><i class="fab fa-twitter"></i></div></i>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-hr2">
+                    <hr>
+                </div>
+
+                <div class="main-copy">
+                    <div class="copy-flex">
+                        <div>
+                            <p>
+                                Carveo Template Kit by codeinsolutions</p>
+                        </div>
+                        <div>
+                            <p>Copyright © 2023 All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
